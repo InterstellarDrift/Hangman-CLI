@@ -1,5 +1,10 @@
+import Hangman.Hangman;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Hangman h = new Hangman();
+
+        h.runLoop();
+
     }
 }
